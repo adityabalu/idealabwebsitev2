@@ -3,4 +3,4 @@ sass:
   sass_dir: css
   style:    compressed
 
-include: [index.md, research.md, code.md, publications.md, contactus.md]
+include: [index.md, research.md]
