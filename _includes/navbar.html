@@ -1,26 +1,38 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">{{ site.title }}</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-            <span class="sr-only">(current)</span>
-          </a>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html">IDEA Lab</a> </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" aria-expanded="false" role="button" data-toggle="dropdown">Research<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li class="dropdown-header">Design</li>
+            <li><a href="r-gpu.html">GPU-accelerated CAD</a></li>
+            <li><a href="r-viz.html">Scientific Visualization</a></li>
+            <li><a href="r-manufacturability.html">Manufacturability</a></li>
+            <li class="dropdown-header">Engineering Analysis</li>
+            <li><a href="r-cardiac.html">Cardiac Modeling</a></li>
+            <li><a href="r-iga.html">Isogeometric Analysis</a></li>
+            <li><a href="r-imga.html">Immersogeometric Analysis</a></li>
+            <li><a href="r-nde.html">Non-Destructive Evaluation</a>
+          </li></ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" aria-expanded="false" role="button" data-toggle="dropdown">Code<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="c-nurbs-python.html">NURBS-Python</a></li>
+                        <li><a href="c-voxelization.html">Voxelization</a></li>
+                  <li><a href="c-dlfea.html">DLFEA</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
+    <!--/.nav-collapse --> 
   </div>
 </nav>

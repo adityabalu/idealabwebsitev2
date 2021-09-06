@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+    {% include navbar.html %}
+    <!-- Banner Image -->
+    <div id="banner">
+      <div id="bannertext">
+        <h1>IDEA Lab</h1>
+        <h3>Integrated Design and Engineering Analysis Laboratory</h3>
+      </div>
+    </div>
+    <div class="container">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

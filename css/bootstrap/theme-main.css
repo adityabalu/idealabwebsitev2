@@ -1,0 +1,108 @@
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+.theme-showcase .navbar .container {
+  width: auto;
+}
+html { height: 100%; }
+
+body {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	background: #FFF;
+	font-family: "Roboto"; 
+	color: #111; 
+	text-align: center; 
+	height: 100%; }
+
+h1 { font: 700 2.0em "Montserrat", sans-serif; }
+h2 { font: 700 1.8em "Montserrat", sans-serif; margin: 1em 0; }
+h3 { font: 700 1.5em "Montserrat", sans-serif; }
+h4 { font: 700 1.2em "Montserrat", sans-serif; }
+a {	font: 400 1.0em "Roboto", sans-serif;}
+
+#banner {
+	background: url(../../images/BG.png) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;	border: none;
+	height: 150%;
+	top: 0px;
+	right: 0px;
+	margin-top: -20px;
+	margin-bottom: 0px;
+	}
+
+#footer-image {
+	background: url(../../images/Footer.png) no-repeat center bottom fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;	border: none;
+	border: none;
+	left:0px;
+	bottom:0px;
+	height:10%;
+	width:100%;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#bannertext {
+	font-size: 2.0vh;
+	width: 24em;
+	position: fixed;
+	top: 38.0%;
+	left: 50%;
+	background-position : 50%;
+	padding: 1.5em 0;
+	margin-left: -12em;
+	border: .5em solid #fff;
+	color: #FF8000;
+}
+
+#content { max-width: 40em; 
+	text-align: justify;
+	margin: 0 auto; 
+	padding: 20px; }
+
+#widecontent { max-width: 60em; 
+	text-align: justify;
+	margin: 0 auto;
+	padding: 20px; }
+
+#publist { max-width: 60em; 
+	text-align: justify;
+	margin: 0 auto; 
+	padding: 0; }
+
+#content p {
+	font-size:1em;
+	margin: 0 0 2em; }
+
+.page td, .page th {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 10px;
+}
+
+#map {
+	text-align: center; 
+	width: 60em;
+	height: 600px;
+}
+
+.member td{
+  padding: 10px;
+}
+
+.member th{
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
